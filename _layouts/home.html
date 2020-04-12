@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{%- for post in site.posts -%}
+  <small>{{ post.date | date: "%-d %B %Y" }}</small>
+  <h1>{{ post.title }}</h1>
+
+  {{ post.content }}
+
+{%- endfor -%}

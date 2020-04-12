@@ -1,1 +1,16 @@
+title: quaranthoughts
+description: >-
+  Documenting my thoughts and experiences during the Covid19 pandemic.
+author: Jadurani Davalos
+twitter_username: jadurani
+github_username:  jadurani
+
 theme: jekyll-theme-minimal
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
