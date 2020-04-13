@@ -3,9 +3,10 @@ layout: default
 ---
 
 {%- for post in site.posts -%}
+<section>
   <small>{{ post.date | date: "%-d %B %Y" }}</small>
   <h1>{{ post.title }}</h1>
 
   {{ post.content }}
-
+</section>
 {%- endfor -%}
